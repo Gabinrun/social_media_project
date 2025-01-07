@@ -1,0 +1,9 @@
+streamlit
+pandas
+textblob
+matplotlib
+wordcloud
+seaborn
+numpy
+datetime
+pytz
