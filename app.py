@@ -50,7 +50,8 @@ def plot_tweets_over_time(df):
 def main():
     st.set_page_config(page_title="Twitter Dashboard", layout="wide")
     st.title("📊 Twitter Insights Dashboard")
-    st.markdown("Explore user tweet data, perform sentiment analysis, and uncover key trends with advanced visualizations.")
+    st.markdown("#### Gabin Garrot, support for the social media project - TU Wien 2025")
+    st.markdown("Please, select a user to explore user tweet data, perform sentiment analysis, and uncover key trends.")
     
     st.sidebar.header("User Selection")
     csv_files = [f for f in os.listdir("data") if f.endswith('.csv')]
@@ -117,9 +118,7 @@ def main():
         # Insights and observations
         st.markdown("### Insights & Observations")
         st.markdown("""
-        - **Peaks in Tweet Activity**: Notice spikes during major events or announcements.
-        - **Sentiment Trends**: Analyze sentiment patterns during key activity periods.
-        - **Standard Deviation**: Understand the variability in likes, retweets, and replies.
+        This data reflects the last 5,000 to 7,000 tweets and retweets from the selected user. Analyses and criticisms are provided directly in the report linked to the project, so please refer to it.
         """)
 
 if __name__ == "__main__":
